@@ -1,0 +1,11 @@
+body{
+    background: blue;
+    color: #000;
+}
+img{
+    border: 10px white groove;
+}
+form{
+    text-align: center;
+    border: 20px green dot-dot-dash;
+}

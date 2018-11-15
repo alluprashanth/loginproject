@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+<h1>Register Form</h1>
+<p>All fields are mandatery</p>
+<form action="end.html">
+    <label for="name">Name:</label>
+    <input type="text" name="user name" id="name" value="" placeholder="Enter Name" required><br>
+    <label for="email">Email:</label>
+    <input type="text" name="email" id="email" placeholder="Enter Email" required><br>
+    <label for="age">Age:</label>
+    <input type="text" id="age" name="age" placeholder="Enter your age" required><br>
+    <h2>Are you intrested in dating</h2>
+    <label for="yes">Yes:</label>
+    <input type="radio" id="yes" name="dating" value="yes"><br>
+    <label for="no">No:</label>
+    <input type="radio" name="dating" id="no" value="no"><br>
+    <h3>Your Expertation Like:</h3>
+    <select name="expertation">
+        <option value="asd">asd</option>
+        <option value="asf">asf</option>
+        <option value="asg">asg</option>
+    </select>
+    <h3>How many marrages you want</h3>
+    <select name="no of marrages">
+        <option value="one">1</option>
+        <option value="two">2</option>
+        <option value="three">3</option>
+    </select>
+    <h2>Are you alcaholic</h2>
+    <input type="checkbox" name="alcaholic" value="yes">yes
+    <input type="checkbox" name="alcaholic" value="no">no
+    <input type="checkbox" name="alcaholic" value="only once">once in month
+    <h2>your profession and extra activities</h2>
+    <textarea name="extra info" rows="5" cols="5"></textarea><br>
+    <input type="submit" value="register" name="register">
+</form>
+
+</body>
+</html>
